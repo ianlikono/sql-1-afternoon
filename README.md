@@ -271,7 +271,7 @@ select sum(Quantity) from Orders;
 
 select sum(ProductPrice * Quantity) from Orders;
 
-select SUM(ProductPrice * Quantity) from Orders where PersonID = 0;
+select SUM(ProductPrice * Quantity) from Orders where PersonID = 1;
 
 <details>
 
