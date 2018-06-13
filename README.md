@@ -43,6 +43,24 @@ CREATE TABLE Person (
   FavoriteColor string
 );
 
+###question Two
+
+INSERT INTO Person (Name, Height, City, FavoriteColor)
+VALUES("Ian", 21, "San Fransisco", "red");
+
+INSERT INTO PERSON (Name, Height, City, FavoriteColor)
+VALUES("Dan", 21, "Eldoret", "purple");
+
+INSERT INTO PERSON (Name, Height, City, FavoriteColor)
+VALUES("Mitch", 21, "Dallas", "green");
+
+INSERT INTO PERSON (Name, Height, City, FavoriteColor)
+VALUES("Tina", 21, "LA", "orange");
+
+INSERT INTO PERSON (Name, Height, City, FavoriteColor)
+VALUES("Tasha", 21, "NY", "white");
+
+
 
 <details>
 
