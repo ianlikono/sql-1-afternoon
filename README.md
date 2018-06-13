@@ -352,6 +352,18 @@ SELECT SUM(ProductPrice * Quantity) FROM Orders WHERE PersonID = 0;
 
 ### Solution
 
+insert into Artist(Name) values ("Beyonce")
+
+
+ select * from Artist order by Name Desc limit 10;
+
+
+select * from Artist order by Name Asc limit 5;
+
+select * from Artist where Name like 'Black%';
+
+select * from Artist where Name like '%Black%';
+
 <details>
 
 <summary> <code> SQL Solutions </code> </summary>
