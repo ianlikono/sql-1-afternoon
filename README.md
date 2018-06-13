@@ -59,7 +59,9 @@ VALUES("Tina", 21, "LA", "orange");
 
 INSERT INTO PERSON (Name, Height, City, FavoriteColor)
 VALUES("Tasha", 21, "NY", "white");
+###question Three
 
+select * from Person Order by Height Desc
 
 
 <details>
