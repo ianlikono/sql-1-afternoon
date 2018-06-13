@@ -252,7 +252,26 @@ SELECT * FROM Person WHERE FavoriteColor IN ( "yellow", "purple" )
 5. Calculate the total order price.
 6. Calculate the total order price by a single PersonID.
 
-### Solution
+### Solutions
+create table Orders(
+	PersonID INTEGER PRIMARY KEY AUTOINCREMENT,
+  	ProductName string
+    ProductPrice float
+  	Quantity integer
+)
+INSERT INTO Orders (
+  ProductName,
+  ProductPrice,
+  Quantity
+) VALUES ("Mint", 10.50, 6 );
+
+select * from Orders;
+
+select sum(Quantity) from Orders;
+
+select sum(ProductPrice * Quantity) from Orders;
+
+select SUM(ProductPrice * Quantity) from Orders where PersonID = 0;
 
 <details>
 
