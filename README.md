@@ -61,7 +61,36 @@ INSERT INTO PERSON (Name, Height, City, FavoriteColor)
 VALUES("Tasha", 21, "NY", "white");
 ###question Three
 
-select * from Person Order by Height Desc
+select * from Person Order by Height Desc;
+
+###question Four
+select * from Person Order by Height Asc;
+
+###question Five
+
+select * from Person order by Age desc;
+
+###question six
+
+select * from Person where Age > 20;
+
+###question seven
+select * from Person where Age = 18;
+
+###question Eight
+select * from Person where Age < 20 OR Age > 30;
+###question Nine
+select * from Person where Age != 27;
+###question 10
+select * from Person where FavoriteColor !="red";
+###question 11
+select * from Person where FavoriteColor != "red" AND FavoriteColor != "blue";
+###question 12
+select * from Person where FavoriteColor = "orange" or FavoriteColor = "green";
+###question 13
+select * from Person where FavoriteColor IN ("orange", "green", "blue")
+###question 14
+select * from Person where FavoriteColor IN ("yellow", "purple")
 
 
 <details>
