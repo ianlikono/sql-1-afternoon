@@ -432,6 +432,16 @@ SELECT * FROM Artist WHERE Name LIKE '%Black%';
 5. Count how many people live in Lethbridge.
 
 ### Solution
+select FirstName, LastName from Employee where City = "Calgary"
+
+select FirstName, LastName, max(BirthDate) from Employee
+
+select FirstName, LastName, min(BirthDate) from Employee
+
+select * from Employee where ReportsTo = 2;
+
+select count(*) from Employee where City = "Lethbridge";
+
 
 <details>
 
