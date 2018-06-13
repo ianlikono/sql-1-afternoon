@@ -514,6 +514,20 @@ SELECT COUNT(*) FROM Employee WHERE City = "Lethbridge";
 
 ### Solution
 
+select count(*) from Invoice where BillingCountry = 'USA';
+
+SELECT Max(total) FROM Invoice;
+
+SELECT Min(total) FROM Invoice;
+
+SELECT * FROM Invoice WHERE Total > 5;
+
+SELECT COUNT(*) FROM Invoice WHERE Total < 5;
+
+SELECT Count(*) FROM Invoice WHERE BillingState in ('CA', 'TX', 'AZ');
+
+SELECT AVG(Total) FROM Invoice;
+
 <details>
 
 <summary> <code> SQL Solutions </code> </summary>
