@@ -4,7 +4,7 @@
 
 In this project we will be practicing inserting and querying data using SQL. We'll make use of a handy online tool called Chinook that we'll use to write SQL online. <a href="http://jxs.me/chinook-web/">Click me</a>
 
-On the left are the Tables with their fields, the right is where we will be writing our queries, and the bottom is where we will see our results.  
+On the left are the Tables with their fields, the right is where we will be writing our queries, and the bottom is where we will see our results.
 
 Any new tables or records that we add into the database will be removed after you refresh the page.
 
@@ -13,9 +13,9 @@ Use [www.sqlteaching.com](http://www.sqlteaching.com/) or [sqlbolt.com](http://s
 ## Table - People
 
 ### Instructions
-1. Create a table called Person that records a person's ID, Name, Age, Height ( in cm ), City, FavoriteColor. 
+1. Create a table called Person that records a person's ID, Name, Age, Height ( in cm ), City, FavoriteColor.
     * ID should be an auto-incrementing id/primary key - Use type: INTEGER PRIMARY KEY AUTOINCREMENT
-2. Add 5 different people into the Person database. 
+2. Add 5 different people into the Person database.
     * Remember to not include the ID because it should auto-increment.
 3. List all the people in the Person table by Height from tallest to shortest.
 4. List all the people in the Person table by Height from shortest to tallest.
@@ -31,6 +31,18 @@ Use [www.sqlteaching.com](http://www.sqlteaching.com/) or [sqlbolt.com](http://s
 14. List all the people in the Person table where their favorite color is yellow or purple (use IN).
 
 ### Solution
+
+###Question One
+
+CREATE TABLE Person (
+  ID INTEGER PRIMARY KEY AUTOINCREMENT,
+  Name string,
+  Age integer,
+  Height integer,
+  City string,
+  FavoriteColor string
+);
+
 
 <details>
 
@@ -270,7 +282,7 @@ SELECT SUM(ProductPrice * Quantity) FROM Orders WHERE PersonID = 0;
 4. Select all artists that start with the word "Black".
 5. Select all artists that contain the word "Black".
 
-### Solution 
+### Solution
 
 <details>
 
@@ -397,7 +409,7 @@ SELECT COUNT(*) FROM Employee WHERE City = "Lethbridge";
 
 </details>
 
-## Table - Invoice 
+## Table - Invoice
 
 ### Instructions
 
